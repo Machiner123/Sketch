@@ -1,0 +1,13 @@
+.container {
+  width: 75%;
+  height: 75%;
+  position: relative;
+  margin-top: 12.5%;
+  padding: 0px; }
+  .container .thingy {
+    width: 0.5%;
+    height: 0.5%;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    background-color: #a5a5a5; }
