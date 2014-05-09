@@ -1,13 +1,19 @@
-.container {
-  width: 75%;
-  height: 75%;
-  position: relative;
-  margin-top: 12.5%;
-  padding: 0px; }
-  .container .thingy {
-    width: 0.5%;
-    height: 0.5%;
-    position: absolute;
-    margin: 0px;
-    padding: 0px;
-    background-color: #a5a5a5; }
+body, html {
+  background-color: black;
+  font-family: 'Arial';
+  height: 100%;
+  z-index: 1; }
+  body #container, html #container {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 12.5%;
+    background-image: url("http://d1jqu7g1y74ds1.cloudfront.net/wp-content/uploads/2012/09/blue-joey-580x368.jpg");
+    z-index: 2; }
+    body #container .thing, html #container .thing {
+      background-color: #fcf3e7;
+      float: left;
+      display: block;
+      z-index: 3;
+      width: 2%;
+      height: 2%; }
